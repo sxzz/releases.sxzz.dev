@@ -1,8 +1,8 @@
-# [releases.antfu.me](https://releases.antfu.me)
+# [releases.sxzz.moe](https://releases.sxzz.moe)
 
-A page for Anthony's recent releases.
+A page for Kevin's recent releases.
 
-Deployed via [NuxtHub](https://hub.nuxt.com)
+Thanks to @antfu's [release.antfu.me](https://github.com/antfu/releases.antfu.me)
 
 You can fork it to create your own version, or [use this template to deploy a page for your contributions](https://github.com/atinux/my-pull-requests) (instead of releases).
 
