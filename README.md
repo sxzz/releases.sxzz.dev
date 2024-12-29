@@ -1,4 +1,4 @@
-# [releases.sxzz.moe](https://releases.sxzz.moe)
+# [releases.sxzz.dev](https://releases.sxzz.dev)
 
 A page for Kevin's recent releases.
 
