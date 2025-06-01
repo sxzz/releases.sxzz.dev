@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@nuxt/eslint',
     '@nuxthub/core',
+    '@nuxtjs/plausible',
   ],
 
   runtimeConfig: {
@@ -69,4 +70,9 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2024-08-14',
+
+  plausible: {
+    domain: 'releases.sxzz.dev',
+    apiHost: 'https://evt.sxzz.dev',
+  },
 })
