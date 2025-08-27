@@ -65,11 +65,7 @@ export default defineNuxtConfig({
     },
   },
 
-  future: {
-    compatibilityVersion: 4,
-  },
-
-  compatibilityDate: '2024-08-14',
+  compatibilityDate: 'latest',
 
   plausible: {
     domain: 'releases.sxzz.dev',
