@@ -68,6 +68,11 @@ export default defineNuxtConfig({
   nitro: {
     cloudflare: {
       wrangler: {
+        vars: {
+          GITHUB_LOGIN: 'sxzz',
+          GITHUB_NAME: 'Kevin Deng',
+          WEBSITE_DOMAIN: 'https://releases.sxzz.dev',
+        },
         observability: {
           enabled: true,
         },
