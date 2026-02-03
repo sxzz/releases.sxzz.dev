@@ -1,4 +1,5 @@
 import type { ReleaseInfo } from '../../types'
+import { kv } from 'hub:kv'
 import { Octokit } from 'octokit'
 
 const LIMIT = 200
@@ -27,7 +28,7 @@ export default defineLazyEventHandler(async () => {
 
   // The GitHub `/events` API only returns the latest 300 events (3 pages)
   // Thus here we use KV to store the previous data to persist the history for a longer time
-  let infos = await hubKV().get<ReleaseInfo[]>(KV_KEY) || []
+  let infos = await kv.get<ReleaseInfo[]>(KV_KEY) || []
 
   // Migrate old data
   infos.forEach((item) => {
@@ -127,7 +128,7 @@ export default defineLazyEventHandler(async () => {
       infos.slice(0, LIMIT)
 
     // Save back to KV
-    hubKV().set(KV_KEY, infos)
+    kv.set(KV_KEY, infos)
 
     return {
       infos,

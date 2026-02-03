@@ -1,46 +1,46 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.28.2",
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "prepare": "nuxi prepare",
     "start": "node .output/server/index.mjs",
-    "start:generate": "npx serve .output/public",
+    "start:generate": "serve .output/public",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "octokit": "^5.0.3"
+    "octokit": "^5.0.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.1",
-    "@iconify-json/carbon": "^1.2.13",
-    "@iconify-json/logos": "^1.2.9",
+    "@antfu/eslint-config": "^7.2.0",
+    "@iconify-json/carbon": "^1.2.18",
+    "@iconify-json/logos": "^1.2.10",
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/twemoji": "^1.2.4",
-    "@nuxt/devtools": "^2.6.3",
-    "@nuxt/eslint": "^1.9.0",
-    "@nuxthub/core": "^0.9.0",
-    "@nuxtjs/color-mode": "^3.5.2",
-    "@nuxtjs/plausible": "1.2.0",
-    "@pinia/nuxt": "^0.11.2",
-    "@unocss/eslint-config": "^66.4.2",
-    "@unocss/nuxt": "^66.4.2",
-    "@vueuse/nuxt": "^13.7.0",
+    "@iconify-json/twemoji": "^1.2.5",
+    "@nuxt/devtools": "^3.1.1",
+    "@nuxt/eslint": "^1.13.0",
+    "@nuxthub/core": "^0.10.6",
+    "@nuxtjs/color-mode": "^4.0.0",
+    "@nuxtjs/plausible": "2.0.1",
+    "@pinia/nuxt": "^0.11.3",
+    "@unocss/eslint-config": "^66.6.0",
+    "@unocss/nuxt": "^66.6.0",
+    "@vueuse/nuxt": "^14.2.0",
     "consola": "^3.4.2",
-    "eslint": "^9.34.0",
-    "eslint-plugin-format": "^1.0.1",
-    "feed": "^5.1.0",
-    "nuxt": "^4.0.3",
-    "pinia": "^3.0.3",
-    "typescript": "~5.9.2",
-    "vue-tsc": "^3.0.6",
-    "wrangler": "^4.33.0"
+    "eslint": "^9.39.2",
+    "eslint-plugin-format": "^1.3.1",
+    "feed": "^5.2.0",
+    "nuxt": "^4.3.0",
+    "pinia": "^3.0.4",
+    "typescript": "~5.9.3",
+    "vue-tsc": "^3.2.4",
+    "wrangler": "^4.61.1"
   },
   "resolutions": {
-    "vite": "^7.1.3"
+    "vite": "^7.3.1"
   }
 }

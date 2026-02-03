@@ -1,0 +1,11 @@
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  sharp: false
+  unrs-resolver: false
+  workerd: false
+shellEmulator: true
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - chokidar@4.0.3
+  - semver@6.3.1
