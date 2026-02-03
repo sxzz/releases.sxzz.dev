@@ -65,6 +65,16 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    cloudflare: {
+      wrangler: {
+        observability: {
+          enabled: true,
+        },
+      },
+    },
+  },
+
   compatibilityDate: 'latest',
 
   plausible: {
